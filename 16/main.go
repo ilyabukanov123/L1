@@ -26,6 +26,7 @@ func quicksort(array []int) []int {
 
 		// Начинаем перебор с 1 элемента массива т.к. 0 элемент мы взяли в качестве опорного
 		for _, value := range array[1:] {
+			// Помещаем элементы меньше опорного и les
 			if value <= pivot {
 				les = append(les, value)
 			}
@@ -33,6 +34,7 @@ func quicksort(array []int) []int {
 
 		// Начинаем перебор с 1 элемента массива т.к. 0 элемент мы взяли в качестве опорного
 		for _, value := range array[1:] {
+			// Помещаем элементы меньше опорного и more
 			if value > pivot {
 				more = append(more, value)
 			}
