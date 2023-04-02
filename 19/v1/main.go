@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// v1
 // Разработать программу, которая переворачивает подаваемую на ход строку (например: «главрыба — абырвалг»). Символы могут быть unicode.
 
 // https://translated.turbopages.org/proxy_u/en-ru.ru.5b60f6b1-6427fc62-46eb3e6e-74722d776562/https/www.geeksforgeeks.org/how-to-reverse-a-string-in-golang/

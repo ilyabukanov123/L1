@@ -32,9 +32,7 @@ func main() {
 	counter := Counter{i: 0}
 	for i := 0; i < 1000; i++ {
 		counter.wg.Add(1) // Добавляем задачу
-		go func() {
-			counter.inc()
-		}()
+		go counter.inc()
 	}
 	counter.wg.Wait() // Ждем пока все горутины завершат свою работу
 	fmt.Printf("Счетчик равен: %v", counter.i)

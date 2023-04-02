@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// v2
 func reverse(str *string) (result string) {
 	//buffer := []rune(*str)
 	// В Go присутствует синтаксический сахар при обходе строки.
